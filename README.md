@@ -9,7 +9,7 @@ Your mission: extract the embedded file and unravel the custom encoding layers t
 
 
 Solution Path
-1. **Extract embedded data** from the PDF using tools like `pdf-parser`
+1. **Extract embedded data** from the PDF using tools like `hexedit`
 2. **Analyze the encoding layers** - look for L1, L2, L3 markers
 3. **Reverse Layer 1**: Fibonacci XOR + bit rotation
 4. **Reverse Layer 2**: Custom byte substitution with markers  
